@@ -86,6 +86,7 @@ const {
 	loading,
 } = useAxios('/posts', { params });
 const isExist = computed(() => posts.value && posts.value.length > 0);
+
 // pagination
 const totalCount = computed(() => response.value.headers['x-total-count']);
 const pageCount = computed(() =>
