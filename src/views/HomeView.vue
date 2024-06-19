@@ -25,7 +25,7 @@ export default {
 </script>
 
 <script setup>
-import { reactive, ref, toRef, toRefs } from 'vue';
+import { reactive, ref, toRefs } from 'vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
